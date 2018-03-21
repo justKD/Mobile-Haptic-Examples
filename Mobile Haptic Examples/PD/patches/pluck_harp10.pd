@@ -1,0 +1,434 @@
+#N canvas 53 23 1235 763 10;
+#X obj 70 540 inlet~;
+#X obj 130 540 inlet~;
+#X obj 10 540 inlet;
+#X obj 190 540 r \$0-read;
+#X obj 190 570 faust-control \$0;
+#X obj 190 600 s \$0-write;
+#X obj 9 600 r \$0-in;
+#X obj 10 630 pluck_harp10~;
+#X obj 10 660 s \$0-out;
+#X obj 70 690 outlet~;
+#X obj 130 690 outlet~;
+#X obj 190 690 outlet~;
+#X obj 250 690 outlet~;
+#X obj 10 690 outlet;
+#X obj 10 30 hsl 128 15 0.1 7 0 0 \$0-pluck-harp10/Bridge-attenuation
+\$0-pluck-harp10/Bridge-attenuation Bridge-attenuation -2 -6 0 10 -262144
+-1 -1 9939 1;
+#X obj 160 30 nbx 5 14 0.1 7 0 0 \$0-pluck-harp10/Bridge-attenuation
+\$0-pluck-harp10/Bridge-attenuation empty 0 -6 0 10 -262144 -1 -1 5.5
+256;
+#X obj 10 60 hsl 128 15 10 100 0 0 \$0-pluck-harp10/Brightness \$0-pluck-harp10/Brightness
+Brightness -2 -6 0 10 -262144 -1 -1 4939 1;
+#X obj 160 60 nbx 5 14 10 100 0 0 \$0-pluck-harp10/Brightness \$0-pluck-harp10/Brightness
+empty 0 -6 0 10 -262144 -1 -1 45 256;
+#X obj 10 90 hsl 128 15 12 100 0 0 \$0-pluck-harp10/FreqsA/Frequency1
+\$0-pluck-harp10/FreqsA/Frequency1 Frequency1 -2 -6 0 10 -262144 -1
+-1 5195 1;
+#X obj 160 90 nbx 5 14 12 100 0 0 \$0-pluck-harp10/FreqsA/Frequency1
+\$0-pluck-harp10/FreqsA/Frequency1 empty 0 -6 0 10 -262144 -1 -1 48
+256;
+#X obj 235 90 hsl 128 15 12 100 0 0 \$0-pluck-harp10/FreqsA/Frequency3
+\$0-pluck-harp10/FreqsA/Frequency3 Frequency3 -2 -6 0 10 -262144 -1
+-1 5484 1;
+#X obj 385 90 nbx 5 14 12 100 0 0 \$0-pluck-harp10/FreqsA/Frequency3
+\$0-pluck-harp10/FreqsA/Frequency3 empty 0 -6 0 10 -262144 -1 -1 50
+256;
+#X obj 10 120 hsl 128 15 12 100 0 0 \$0-pluck-harp10/FreqsB/Frequency5
+\$0-pluck-harp10/FreqsB/Frequency5 Frequency5 -2 -6 0 10 -262144 -1
+-1 5773 1;
+#X obj 160 120 nbx 5 14 12 100 0 0 \$0-pluck-harp10/FreqsB/Frequency5
+\$0-pluck-harp10/FreqsB/Frequency5 empty 0 -6 0 10 -262144 -1 -1 52
+256;
+#X obj 235 120 hsl 128 15 12 100 0 0 \$0-pluck-harp10/FreqsB/Frequency7
+\$0-pluck-harp10/FreqsB/Frequency7 Frequency7 -2 -6 0 10 -262144 -1
+-1 6061 1;
+#X obj 385 120 nbx 5 14 12 100 0 0 \$0-pluck-harp10/FreqsB/Frequency7
+\$0-pluck-harp10/FreqsB/Frequency7 empty 0 -6 0 10 -262144 -1 -1 54
+256;
+#X obj 10 150 hsl 128 15 12 100 0 0 \$0-pluck-harp10/FreqsC/Frequency11
+\$0-pluck-harp10/FreqsC/Frequency11 Frequency11 -2 -6 0 10 -262144
+-1 -1 6639 1;
+#X obj 160 150 nbx 5 14 12 100 0 0 \$0-pluck-harp10/FreqsC/Frequency11
+\$0-pluck-harp10/FreqsC/Frequency11 empty 0 -6 0 10 -262144 -1 -1 58
+256;
+#X obj 235 150 hsl 128 15 12 100 0 0 \$0-pluck-harp10/FreqsC/Frequency9
+\$0-pluck-harp10/FreqsC/Frequency9 Frequency9 -2 -6 0 10 -262144 -1
+-1 6350 1;
+#X obj 385 150 nbx 5 14 12 100 0 0 \$0-pluck-harp10/FreqsC/Frequency9
+\$0-pluck-harp10/FreqsC/Frequency9 empty 0 -6 0 10 -262144 -1 -1 56
+256;
+#X obj 10 180 hsl 128 15 12 100 0 0 \$0-pluck-harp10/FreqsD/Frequency13
+\$0-pluck-harp10/FreqsD/Frequency13 Frequency13 -2 -6 0 10 -262144
+-1 -1 6927 1;
+#X obj 160 180 nbx 5 14 12 100 0 0 \$0-pluck-harp10/FreqsD/Frequency13
+\$0-pluck-harp10/FreqsD/Frequency13 empty 0 -6 0 10 -262144 -1 -1 60
+256;
+#X obj 235 180 hsl 128 15 12 100 0 0 \$0-pluck-harp10/FreqsD/Frequency15
+\$0-pluck-harp10/FreqsD/Frequency15 Frequency15 -2 -6 0 10 -262144
+-1 -1 7216 1;
+#X obj 385 180 nbx 5 14 12 100 0 0 \$0-pluck-harp10/FreqsD/Frequency15
+\$0-pluck-harp10/FreqsD/Frequency15 empty 0 -6 0 10 -262144 -1 -1 62
+256;
+#X obj 10 210 hsl 128 15 12 100 0 0 \$0-pluck-harp10/FreqsE/Frequency17
+\$0-pluck-harp10/FreqsE/Frequency17 Frequency17 -2 -6 0 10 -262144
+-1 -1 7505 1;
+#X obj 160 210 nbx 5 14 12 100 0 0 \$0-pluck-harp10/FreqsE/Frequency17
+\$0-pluck-harp10/FreqsE/Frequency17 empty 0 -6 0 10 -262144 -1 -1 64
+256;
+#X obj 235 210 hsl 128 15 12 100 0 0 \$0-pluck-harp10/FreqsE/Frequency19
+\$0-pluck-harp10/FreqsE/Frequency19 Frequency19 -2 -6 0 10 -262144
+-1 -1 7793 1;
+#X obj 385 210 nbx 5 14 12 100 0 0 \$0-pluck-harp10/FreqsE/Frequency19
+\$0-pluck-harp10/FreqsE/Frequency19 empty 0 -6 0 10 -262144 -1 -1 66
+256;
+#X obj 10 240 hsl 128 15 0.1 7 0 0 \$0-pluck-harp10/Fret-attenuation
+\$0-pluck-harp10/Fret-attenuation Fret-attenuation -2 -6 0 10 -262144
+-1 -1 6184 1;
+#X obj 160 240 nbx 5 14 0.1 7 0 0 \$0-pluck-harp10/Fret-attenuation
+\$0-pluck-harp10/Fret-attenuation empty 0 -6 0 10 -262144 -1 -1 3.46
+256;
+#X obj 10 268 hsl 128 15 0 2.5 0 0 \$0-pluck-harp10/Pluck-damping \$0-pluck-harp10/Pluck-damping
+Pluck-damping -2 -6 0 10 -262144 -1 -1 0 1;
+#X obj 160 270 nbx 5 14 0 2.5 0 0 \$0-pluck-harp10/Pluck-damping \$0-pluck-harp10/Pluck-damping
+empty 0 -6 0 10 -262144 -1 -1 0 256;
+#X obj 10 300 hsl 128 15 0.001 0.01 0 0 \$0-pluck-harp10/Pluck-half-width
+\$0-pluck-harp10/Pluck-half-width Pluck-half-width -2 -6 0 10 -262144
+-1 -1 4939 1;
+#X obj 160 300 nbx 5 14 0.001 0.01 0 0 \$0-pluck-harp10/Pluck-half-width
+\$0-pluck-harp10/Pluck-half-width empty 0 -6 0 10 -262144 -1 -1 0.0045
+256;
+#X obj 10 330 hsl 128 15 0.1 0.9 0 0 \$0-pluck-harp10/Pluck-position-along-length
+\$0-pluck-harp10/Pluck-position-along-length Pluck-position-along-length
+-2 -6 0 10 -262144 -1 -1 4763 1;
+#X obj 160 330 nbx 5 14 0.1 0.9 0 0 \$0-pluck-harp10/Pluck-position-along-length
+\$0-pluck-harp10/Pluck-position-along-length empty 0 -6 0 10 -262144
+-1 -1 0.4 256;
+#X obj 10 360 hsl 128 15 50 1000 0 0 \$0-pluck-harp10/Pluck-stiffness
+\$0-pluck-harp10/Pluck-stiffness Pluck-stiffness -2 -6 0 10 -262144
+-1 -1 0 1;
+#X obj 160 360 nbx 5 14 50 1000 0 0 \$0-pluck-harp10/Pluck-stiffness
+\$0-pluck-harp10/Pluck-stiffness empty 0 -6 0 10 -262144 -1 -1 50 256
+;
+#X obj 10 390 hsl 128 15 0.25 7.5 0 0 \$0-pluck-harp10/String-wave-impedance
+\$0-pluck-harp10/String-wave-impedance String-wave-impedance -2 -6
+0 10 -262144 -1 -1 12700 1;
+#X obj 160 390 nbx 5 14 0.25 7.5 0 0 \$0-pluck-harp10/String-wave-impedance
+\$0-pluck-harp10/String-wave-impedance empty 0 -6 0 10 -262144 -1 -1
+7.5 256;
+#X obj 10 420 hsl 128 15 0.1 1.4 0 0 \$0-pluck-harp10/Waveguides-position-adjustment
+\$0-pluck-harp10/Waveguides-position-adjustment Waveguides-position-adjustment
+-2 -6 0 10 -262144 -1 -1 8792 1;
+#X obj 160 420 nbx 5 14 0.1 1.4 0 0 \$0-pluck-harp10/Waveguides-position-adjustment
+\$0-pluck-harp10/Waveguides-position-adjustment empty 0 -6 0 10 -262144
+-1 -1 1 256;
+#X obj 10 450 hsl 128 15 0.01 1 0 0 \$0-pluck-harp10/Z-Volume \$0-pluck-harp10/Z-Volume
+Z-Volume -2 -6 0 10 -262144 -1 -1 2694 1;
+#X obj 160 450 nbx 5 14 0.01 1 0 0 \$0-pluck-harp10/Z-Volume \$0-pluck-harp10/Z-Volume
+empty 0 -6 0 10 -262144 -1 -1 0.22 256;
+#X obj 422 3 bng 15 250 50 1 \$0-init \$0-ignore empty 0 -6 0 10 -262144
+-1 -1;
+#X obj 442 3 tgl 15 1 \$0-active \$0-active empty 0 -6 0 10 -262144
+-1 -1 1 1;
+#X obj 490 10 r \$0-init;
+#X obj 1191 618 s \$0-in;
+#X obj 1454 9 s \$0-read;
+#X obj 1509 11 r \$0-write;
+#X msg 490 30 1;
+#X obj 490 50 s \$0-active;
+#X obj 1207 20 r \$0-active;
+#X msg 1207 40 active \$1;
+#X obj 1509 31 route active;
+#X obj 1509 51 s \$0-active;
+#X msg 490 70 5.5;
+#X obj 490 90 s \$0-pluck-harp10/Bridge-attenuation;
+#X obj 890 36 r \$0-pluck-harp10/Bridge-attenuation;
+#X msg 890 43 /pluck-harp10/Bridge-attenuation \$1;
+#X obj 1509 71 route /pluck-harp10/Bridge-attenuation;
+#X obj 1509 91 s \$0-pluck-harp10/Bridge-attenuation;
+#X msg 490 110 45;
+#X obj 490 130 s \$0-pluck-harp10/Brightness;
+#X obj 889 86 r \$0-pluck-harp10/Brightness;
+#X msg 888 93 /pluck-harp10/Brightness \$1;
+#X obj 1509 111 route /pluck-harp10/Brightness;
+#X obj 1509 131 s \$0-pluck-harp10/Brightness;
+#X msg 490 150 48;
+#X obj 490 170 s \$0-pluck-harp10/FreqsA/Frequency1;
+#X obj 1209 62 r \$0-pluck-harp10/FreqsA/Frequency1;
+#X msg 1209 82 /pluck-harp10/FreqsA/Frequency1 \$1;
+#X obj 1509 151 route /pluck-harp10/FreqsA/Frequency1;
+#X obj 1509 171 s \$0-pluck-harp10/FreqsA/Frequency1;
+#X msg 490 190 50;
+#X obj 490 210 s \$0-pluck-harp10/FreqsA/Frequency3;
+#X obj 1209 102 r \$0-pluck-harp10/FreqsA/Frequency3;
+#X msg 1209 122 /pluck-harp10/FreqsA/Frequency3 \$1;
+#X obj 1509 191 route /pluck-harp10/FreqsA/Frequency3;
+#X obj 1509 211 s \$0-pluck-harp10/FreqsA/Frequency3;
+#X msg 490 230 52;
+#X obj 490 250 s \$0-pluck-harp10/FreqsB/Frequency5;
+#X obj 1209 142 r \$0-pluck-harp10/FreqsB/Frequency5;
+#X msg 1209 162 /pluck-harp10/FreqsB/Frequency5 \$1;
+#X obj 1509 231 route /pluck-harp10/FreqsB/Frequency5;
+#X obj 1509 251 s \$0-pluck-harp10/FreqsB/Frequency5;
+#X msg 490 270 54;
+#X obj 490 290 s \$0-pluck-harp10/FreqsB/Frequency7;
+#X obj 1209 182 r \$0-pluck-harp10/FreqsB/Frequency7;
+#X msg 1209 202 /pluck-harp10/FreqsB/Frequency7 \$1;
+#X obj 1509 271 route /pluck-harp10/FreqsB/Frequency7;
+#X obj 1509 291 s \$0-pluck-harp10/FreqsB/Frequency7;
+#X msg 490 310 58;
+#X obj 490 330 s \$0-pluck-harp10/FreqsC/Frequency11;
+#X obj 1209 222 r \$0-pluck-harp10/FreqsC/Frequency11;
+#X msg 1209 242 /pluck-harp10/FreqsC/Frequency11 \$1;
+#X obj 1509 311 route /pluck-harp10/FreqsC/Frequency11;
+#X obj 1509 331 s \$0-pluck-harp10/FreqsC/Frequency11;
+#X msg 490 350 56;
+#X obj 490 370 s \$0-pluck-harp10/FreqsC/Frequency9;
+#X obj 1209 262 r \$0-pluck-harp10/FreqsC/Frequency9;
+#X msg 1209 282 /pluck-harp10/FreqsC/Frequency9 \$1;
+#X obj 1509 351 route /pluck-harp10/FreqsC/Frequency9;
+#X obj 1509 371 s \$0-pluck-harp10/FreqsC/Frequency9;
+#X msg 490 390 60;
+#X obj 490 410 s \$0-pluck-harp10/FreqsD/Frequency13;
+#X obj 1209 302 r \$0-pluck-harp10/FreqsD/Frequency13;
+#X msg 1209 322 /pluck-harp10/FreqsD/Frequency13 \$1;
+#X obj 1509 391 route /pluck-harp10/FreqsD/Frequency13;
+#X obj 1509 411 s \$0-pluck-harp10/FreqsD/Frequency13;
+#X msg 490 430 62;
+#X obj 490 450 s \$0-pluck-harp10/FreqsD/Frequency15;
+#X obj 1209 342 r \$0-pluck-harp10/FreqsD/Frequency15;
+#X msg 1209 362 /pluck-harp10/FreqsD/Frequency15 \$1;
+#X obj 1509 431 route /pluck-harp10/FreqsD/Frequency15;
+#X obj 1509 451 s \$0-pluck-harp10/FreqsD/Frequency15;
+#X msg 490 470 64;
+#X obj 490 490 s \$0-pluck-harp10/FreqsE/Frequency17;
+#X obj 1209 382 r \$0-pluck-harp10/FreqsE/Frequency17;
+#X msg 1209 402 /pluck-harp10/FreqsE/Frequency17 \$1;
+#X obj 1509 471 route /pluck-harp10/FreqsE/Frequency17;
+#X obj 1509 491 s \$0-pluck-harp10/FreqsE/Frequency17;
+#X msg 490 510 66;
+#X obj 490 530 s \$0-pluck-harp10/FreqsE/Frequency19;
+#X obj 1209 422 r \$0-pluck-harp10/FreqsE/Frequency19;
+#X msg 1209 442 /pluck-harp10/FreqsE/Frequency19 \$1;
+#X obj 1509 511 route /pluck-harp10/FreqsE/Frequency19;
+#X obj 1509 531 s \$0-pluck-harp10/FreqsE/Frequency19;
+#X msg 490 550 3.46;
+#X obj 490 570 s \$0-pluck-harp10/Fret-attenuation;
+#X obj 888 138 r \$0-pluck-harp10/Fret-attenuation;
+#X msg 888 143 /pluck-harp10/Fret-attenuation \$1;
+#X obj 1509 551 route /pluck-harp10/Fret-attenuation;
+#X obj 1509 571 s \$0-pluck-harp10/Fret-attenuation;
+#X obj 490 610 s \$0-pluck-harp10/Pluck-damping;
+#X obj 886 186 r \$0-pluck-harp10/Pluck-damping;
+#X msg 886 192 /pluck-harp10/Pluck-damping \$1;
+#X obj 1509 591 route /pluck-harp10/Pluck-damping;
+#X obj 1509 611 s \$0-pluck-harp10/Pluck-damping;
+#X msg 490 630 0.0045;
+#X obj 490 650 s \$0-pluck-harp10/Pluck-half-width;
+#X obj 887 242 r \$0-pluck-harp10/Pluck-half-width;
+#X msg 886 251 /pluck-harp10/Pluck-half-width \$1;
+#X obj 1509 631 route /pluck-harp10/Pluck-half-width;
+#X obj 1509 651 s \$0-pluck-harp10/Pluck-half-width;
+#X msg 490 670 0.4;
+#X obj 490 690 s \$0-pluck-harp10/Pluck-position-along-length;
+#X obj 888 299 r \$0-pluck-harp10/Pluck-position-along-length;
+#X msg 888 307 /pluck-harp10/Pluck-position-along-length \$1;
+#X obj 1509 671 route /pluck-harp10/Pluck-position-along-length;
+#X obj 1509 691 s \$0-pluck-harp10/Pluck-position-along-length;
+#X obj 896 348 r \$0-pluck-harp10/Pluck-stiffness;
+#X msg 870 343 /pluck-harp10/Pluck-stiffness \$1;
+#X obj 1509 711 route /pluck-harp10/Pluck-stiffness;
+#X obj 1509 731 s \$0-pluck-harp10/Pluck-stiffness;
+#X obj 490 770 s \$0-pluck-harp10/String-wave-impedance;
+#X obj 894 394 r \$0-pluck-harp10/String-wave-impedance;
+#X msg 896 398 /pluck-harp10/String-wave-impedance \$1;
+#X obj 1509 751 route /pluck-harp10/String-wave-impedance;
+#X obj 1509 771 s \$0-pluck-harp10/String-wave-impedance;
+#X msg 490 790 1;
+#X obj 490 810 s \$0-pluck-harp10/Waveguides-position-adjustment;
+#X obj 893 451 r \$0-pluck-harp10/Waveguides-position-adjustment;
+#X msg 893 456 /pluck-harp10/Waveguides-position-adjustment \$1;
+#X obj 1509 791 route /pluck-harp10/Waveguides-position-adjustment
+;
+#X obj 1509 811 s \$0-pluck-harp10/Waveguides-position-adjustment;
+#X msg 490 830 0.22;
+#X obj 490 850 s \$0-pluck-harp10/Z-Volume;
+#X obj 889 497 r \$0-pluck-harp10/Z-Volume;
+#X msg 891 505 /pluck-harp10/Z-Volume \$1;
+#X obj 1509 831 route /pluck-harp10/Z-Volume;
+#X obj 1509 851 s \$0-pluck-harp10/Z-Volume;
+#X text 0 490 Generated Wed Nov 4 15:57:31 2015 by faust2pd v2.5. See
+http://faust.grame.fr and http://pure-lang.googlecode.com.;
+#X obj 318 596 loadbang;
+#X obj 318 619 delay 5000;
+#X msg 318 642 0;
+#X text 315 664 Change by Edgar Berdahl;
+#X text 316 677 Nov. 11 \, 2015;
+#X obj 92 477 s stiff2;
+#X msg 490 712 0;
+#X msg 520 591 0.4;
+#X msg 490 590 0;
+#X msg 520 750 1.6;
+#X msg 490 750 7.5;
+#X obj 490 731 s \$0-pluck-harp10/Pluck-stiffness;
+#X msg 519 712 750;
+#X obj 878 18 r bridge;
+#X obj 879 64 r brightness;
+#X obj 878 118 r fret;
+#X obj 878 165 r damping;
+#X obj 877 219 r halfwidth;
+#X obj 875 275 r position;
+#X obj 876 376 r impedance;
+#X obj 855 430 r adjustment;
+#X obj 870 480 r zvolume;
+#X obj 798 304 r stiffness;
+#X connect 0 0 7 1;
+#X connect 1 0 7 2;
+#X connect 2 0 4 0;
+#X connect 2 0 13 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;
+#X connect 7 1 9 0;
+#X connect 7 3 11 0;
+#X connect 7 4 12 0;
+#X connect 56 0 66 0;
+#X connect 56 0 72 0;
+#X connect 56 0 78 0;
+#X connect 56 0 84 0;
+#X connect 56 0 90 0;
+#X connect 56 0 96 0;
+#X connect 56 0 102 0;
+#X connect 56 0 108 0;
+#X connect 56 0 114 0;
+#X connect 56 0 120 0;
+#X connect 56 0 126 0;
+#X connect 56 0 132 0;
+#X connect 56 0 138 0;
+#X connect 56 0 191 0;
+#X connect 56 0 149 0;
+#X connect 56 0 155 0;
+#X connect 56 0 189 0;
+#X connect 56 0 193 0;
+#X connect 56 0 170 0;
+#X connect 56 0 176 0;
+#X connect 59 0 64 0;
+#X connect 60 0 61 0;
+#X connect 62 0 63 0;
+#X connect 63 0 57 0;
+#X connect 64 0 65 0;
+#X connect 64 1 70 0;
+#X connect 66 0 67 0;
+#X connect 68 0 69 0;
+#X connect 69 0 57 0;
+#X connect 70 0 71 0;
+#X connect 70 1 76 0;
+#X connect 72 0 73 0;
+#X connect 74 0 75 0;
+#X connect 75 0 57 0;
+#X connect 76 0 77 0;
+#X connect 76 1 82 0;
+#X connect 78 0 79 0;
+#X connect 80 0 81 0;
+#X connect 81 0 57 0;
+#X connect 82 0 83 0;
+#X connect 82 1 88 0;
+#X connect 84 0 85 0;
+#X connect 86 0 87 0;
+#X connect 87 0 57 0;
+#X connect 88 0 89 0;
+#X connect 88 1 94 0;
+#X connect 90 0 91 0;
+#X connect 92 0 93 0;
+#X connect 93 0 57 0;
+#X connect 94 0 95 0;
+#X connect 94 1 100 0;
+#X connect 96 0 97 0;
+#X connect 98 0 99 0;
+#X connect 99 0 57 0;
+#X connect 100 0 101 0;
+#X connect 100 1 106 0;
+#X connect 102 0 103 0;
+#X connect 104 0 105 0;
+#X connect 105 0 57 0;
+#X connect 106 0 107 0;
+#X connect 106 1 112 0;
+#X connect 108 0 109 0;
+#X connect 110 0 111 0;
+#X connect 111 0 57 0;
+#X connect 112 0 113 0;
+#X connect 112 1 118 0;
+#X connect 114 0 115 0;
+#X connect 116 0 117 0;
+#X connect 117 0 57 0;
+#X connect 118 0 119 0;
+#X connect 118 1 124 0;
+#X connect 120 0 121 0;
+#X connect 122 0 123 0;
+#X connect 123 0 57 0;
+#X connect 124 0 125 0;
+#X connect 124 1 130 0;
+#X connect 126 0 127 0;
+#X connect 128 0 129 0;
+#X connect 129 0 57 0;
+#X connect 130 0 131 0;
+#X connect 130 1 136 0;
+#X connect 132 0 133 0;
+#X connect 134 0 135 0;
+#X connect 135 0 57 0;
+#X connect 136 0 137 0;
+#X connect 136 1 142 0;
+#X connect 138 0 139 0;
+#X connect 140 0 141 0;
+#X connect 141 0 57 0;
+#X connect 142 0 143 0;
+#X connect 142 1 147 0;
+#X connect 145 0 146 0;
+#X connect 146 0 57 0;
+#X connect 147 0 148 0;
+#X connect 147 1 153 0;
+#X connect 149 0 150 0;
+#X connect 151 0 152 0;
+#X connect 152 0 57 0;
+#X connect 153 0 154 0;
+#X connect 153 1 159 0;
+#X connect 155 0 156 0;
+#X connect 157 0 158 0;
+#X connect 158 0 57 0;
+#X connect 159 0 160 0;
+#X connect 159 1 163 0;
+#X connect 161 0 162 0;
+#X connect 162 0 57 0;
+#X connect 163 0 164 0;
+#X connect 163 1 168 0;
+#X connect 166 0 167 0;
+#X connect 167 0 57 0;
+#X connect 168 0 169 0;
+#X connect 168 1 174 0;
+#X connect 170 0 171 0;
+#X connect 172 0 173 0;
+#X connect 173 0 57 0;
+#X connect 174 0 175 0;
+#X connect 174 1 180 0;
+#X connect 176 0 177 0;
+#X connect 178 0 179 0;
+#X connect 179 0 57 0;
+#X connect 180 0 181 0;
+#X connect 183 0 184 0;
+#X connect 184 0 185 0;
+#X connect 189 0 194 0;
+#X connect 191 0 144 0;
+#X connect 193 0 165 0;
+#X connect 196 0 69 0;
+#X connect 197 0 75 0;
+#X connect 198 0 141 0;
+#X connect 199 0 146 0;
+#X connect 200 0 152 0;
+#X connect 201 0 158 0;
+#X connect 202 0 167 0;
+#X connect 203 0 173 0;
+#X connect 204 0 179 0;
+#X connect 205 0 162 0;
+#X coords 0 -1 1 1 460 470 1 0 0;

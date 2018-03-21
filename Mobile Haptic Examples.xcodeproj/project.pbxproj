@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63318ED31C18C7E50028A9D2 /* zdubstep-drum-loop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63318ECF1C18C7E50028A9D2 /* zdubstep-drum-loop.wav */; };
+		63318ED41C18C7E50028A9D2 /* zelectro-house-loop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63318ED01C18C7E50028A9D2 /* zelectro-house-loop.wav */; };
+		63318ED51C18C7E50028A9D2 /* zhappy-drum-loop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63318ED11C18C7E50028A9D2 /* zhappy-drum-loop.wav */; };
+		63318ED61C18C7E50028A9D2 /* zsax-chinese.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63318ED21C18C7E50028A9D2 /* zsax-chinese.wav */; };
+		63318ED91C18C9490028A9D2 /* DFContinuousForceTouchGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63318ED81C18C9490028A9D2 /* DFContinuousForceTouchGestureRecognizer.m */; };
+		634AF2E51C18774000FD9A9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AF2E41C18774000FD9A9E /* main.m */; };
+		634AF2E81C18774000FD9A9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AF2E71C18774000FD9A9E /* AppDelegate.m */; };
+		634AF2EB1C18774000FD9A9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AF2EA1C18774000FD9A9E /* ViewController.m */; };
+		634AF2EE1C18774000FD9A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634AF2EC1C18774000FD9A9E /* Main.storyboard */; };
+		634AF2F01C18774000FD9A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634AF2EF1C18774000FD9A9E /* Assets.xcassets */; };
+		634AF2F31C18774000FD9A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634AF2F11C18774000FD9A9E /* LaunchScreen.storyboard */; };
+		634AF3071C18789C00FD9A9E /* NNEasyPD.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AF3061C18789C00FD9A9E /* NNEasyPD.m */; };
+		634AF30F1C187A3500FD9A9E /* nnKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AF30E1C187A3500FD9A9E /* nnKit.m */; };
+		634AF33D1C1882E500FD9A9E /* FaustLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 634AF33C1C1882E500FD9A9E /* FaustLoader.mm */; };
+		634AF51B1C18869300FD9A9E /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 634AF5161C18868100FD9A9E /* libpd-ios.a */; };
+		634AF5331C18B04600FD9A9E /* faust-control.pd in Resources */ = {isa = PBXBuildFile; fileRef = 634AF52E1C18B04600FD9A9E /* faust-control.pd */; };
+		634AF5341C18B04600FD9A9E /* pluck_harp10-FireFaderSimulator-noiemlib.pd in Resources */ = {isa = PBXBuildFile; fileRef = 634AF52F1C18B04600FD9A9E /* pluck_harp10-FireFaderSimulator-noiemlib.pd */; };
+		634AF5351C18B04600FD9A9E /* pluck_harp10.pd in Resources */ = {isa = PBXBuildFile; fileRef = 634AF5301C18B04600FD9A9E /* pluck_harp10.pd */; };
+		634AF5361C18B04600FD9A9E /* pluck_one_string_pitch_control_auto_timbre-FireFaderSimulator.pd in Resources */ = {isa = PBXBuildFile; fileRef = 634AF5311C18B04600FD9A9E /* pluck_one_string_pitch_control_auto_timbre-FireFaderSimulator.pd */; };
+		634AF5371C18B04600FD9A9E /* pluck_one_string_pitch_control_auto_timbre.pd in Resources */ = {isa = PBXBuildFile; fileRef = 634AF5321C18B04600FD9A9E /* pluck_one_string_pitch_control_auto_timbre.pd */; };
+		634AF53A1C18B22D00FD9A9E /* PluckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AF5391C18B22D00FD9A9E /* PluckViewController.m */; };
+		634AF53C1C18B45200FD9A9E /* pluck_one_string_pitch_control_auto_timbre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 634AF53B1C18B45200FD9A9E /* pluck_one_string_pitch_control_auto_timbre.cpp */; };
+		634AF5401C18B95600FD9A9E /* pluck_harp10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 634AF53F1C18B95600FD9A9E /* pluck_harp10.cpp */; };
+		634AF5431C18BABB00FD9A9E /* PressToMixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AF5421C18BABB00FD9A9E /* PressToMixViewController.m */; };
+		634AF54C1C18BB7700FD9A9E /* demo-using-hsliders~.pd in Resources */ = {isa = PBXBuildFile; fileRef = 634AF5451C18BB7700FD9A9E /* demo-using-hsliders~.pd */; };
+		634AF54E1C18BB7700FD9A9E /* touch-x2~.pd in Resources */ = {isa = PBXBuildFile; fileRef = 634AF5471C18BB7700FD9A9E /* touch-x2~.pd */; };
+		635153A61C19C911009554CC /* gts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 635153A51C19C911009554CC /* gts.cpp */; };
+		6360E7531C1F1E2400D07F09 /* NNStringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6360E7521C1F1E2400D07F09 /* NNStringView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		634AF5151C18868100FD9A9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 634AF5101C18868100FD9A9E /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+		634AF5171C18868100FD9A9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 634AF5101C18868100FD9A9E /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 119013AB1486450C00086F19;
+			remoteInfo = "libpd-osx";
+		};
+		634AF5191C18868F00FD9A9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 634AF5101C18868100FD9A9E /* libpd.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63318ECF1C18C7E50028A9D2 /* zdubstep-drum-loop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "zdubstep-drum-loop.wav"; path = "PD/patches/press_to_mix/zdubstep-drum-loop.wav"; sourceTree = "<group>"; };
+		63318ED01C18C7E50028A9D2 /* zelectro-house-loop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "zelectro-house-loop.wav"; path = "PD/patches/press_to_mix/zelectro-house-loop.wav"; sourceTree = "<group>"; };
+		63318ED11C18C7E50028A9D2 /* zhappy-drum-loop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "zhappy-drum-loop.wav"; path = "PD/patches/press_to_mix/zhappy-drum-loop.wav"; sourceTree = "<group>"; };
+		63318ED21C18C7E50028A9D2 /* zsax-chinese.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "zsax-chinese.wav"; path = "PD/patches/press_to_mix/zsax-chinese.wav"; sourceTree = "<group>"; };
+		63318ED71C18C9490028A9D2 /* DFContinuousForceTouchGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFContinuousForceTouchGestureRecognizer.h; sourceTree = "<group>"; };
+		63318ED81C18C9490028A9D2 /* DFContinuousForceTouchGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFContinuousForceTouchGestureRecognizer.m; sourceTree = "<group>"; };
+		634AF2E01C18774000FD9A9E /* Mobile Haptic Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Haptic Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		634AF2E41C18774000FD9A9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		634AF2E61C18774000FD9A9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		634AF2E71C18774000FD9A9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		634AF2E91C18774000FD9A9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		634AF2EA1C18774000FD9A9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		634AF2ED1C18774000FD9A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		634AF2EF1C18774000FD9A9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		634AF2F21C18774000FD9A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		634AF2F41C18774000FD9A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634AF3051C18789C00FD9A9E /* NNEasyPD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NNEasyPD.h; path = NNEasyPD/NNEasyPD.h; sourceTree = SOURCE_ROOT; };
+		634AF3061C18789C00FD9A9E /* NNEasyPD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NNEasyPD.m; path = NNEasyPD/NNEasyPD.m; sourceTree = SOURCE_ROOT; };
+		634AF30D1C187A3500FD9A9E /* nnKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnKit.h; path = NNKit/nnKit.h; sourceTree = "<group>"; };
+		634AF30E1C187A3500FD9A9E /* nnKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnKit.m; path = NNKit/nnKit.m; sourceTree = "<group>"; };
+		634AF3161C187DF100FD9A9E /* FaustLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaustLoader.h; path = NNKit/FaustLoader.h; sourceTree = "<group>"; };
+		634AF3301C187E9300FD9A9E /* dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dsp.h; path = PD/faust/dsp.h; sourceTree = "<group>"; };
+		634AF3311C187E9300FD9A9E /* meta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = meta.h; path = PD/faust/meta.h; sourceTree = "<group>"; };
+		634AF3321C187E9300FD9A9E /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = misc.h; path = PD/faust/misc.h; sourceTree = "<group>"; };
+		634AF3331C187E9300FD9A9E /* UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UI.h; path = PD/faust/UI.h; sourceTree = "<group>"; };
+		634AF33C1C1882E500FD9A9E /* FaustLoader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FaustLoader.mm; path = NNKit/FaustLoader.mm; sourceTree = "<group>"; };
+		634AF5101C18868100FD9A9E /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = NNEasyPD/libpd/libpd.xcodeproj; sourceTree = "<group>"; };
+		634AF52E1C18B04600FD9A9E /* faust-control.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "faust-control.pd"; path = "PD/patches/faust-control.pd"; sourceTree = "<group>"; };
+		634AF52F1C18B04600FD9A9E /* pluck_harp10-FireFaderSimulator-noiemlib.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "pluck_harp10-FireFaderSimulator-noiemlib.pd"; path = "PD/patches/pluck_harp10-FireFaderSimulator-noiemlib.pd"; sourceTree = "<group>"; };
+		634AF5301C18B04600FD9A9E /* pluck_harp10.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pluck_harp10.pd; path = PD/patches/pluck_harp10.pd; sourceTree = "<group>"; };
+		634AF5311C18B04600FD9A9E /* pluck_one_string_pitch_control_auto_timbre-FireFaderSimulator.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "pluck_one_string_pitch_control_auto_timbre-FireFaderSimulator.pd"; path = "PD/patches/pluck_one_string_pitch_control_auto_timbre-FireFaderSimulator.pd"; sourceTree = "<group>"; };
+		634AF5321C18B04600FD9A9E /* pluck_one_string_pitch_control_auto_timbre.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pluck_one_string_pitch_control_auto_timbre.pd; path = PD/patches/pluck_one_string_pitch_control_auto_timbre.pd; sourceTree = "<group>"; };
+		634AF5381C18B22D00FD9A9E /* PluckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluckViewController.h; sourceTree = "<group>"; };
+		634AF5391C18B22D00FD9A9E /* PluckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluckViewController.m; sourceTree = "<group>"; };
+		634AF53B1C18B45200FD9A9E /* pluck_one_string_pitch_control_auto_timbre.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluck_one_string_pitch_control_auto_timbre.cpp; path = PD/faust/pluck_one_string_pitch_control_auto_timbre.cpp; sourceTree = "<group>"; };
+		634AF53F1C18B95600FD9A9E /* pluck_harp10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluck_harp10.cpp; path = PD/faust/pluck_harp10.cpp; sourceTree = "<group>"; };
+		634AF5411C18BABB00FD9A9E /* PressToMixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PressToMixViewController.h; sourceTree = "<group>"; };
+		634AF5421C18BABB00FD9A9E /* PressToMixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PressToMixViewController.m; sourceTree = "<group>"; };
+		634AF5451C18BB7700FD9A9E /* demo-using-hsliders~.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "demo-using-hsliders~.pd"; path = "PD/patches/press_to_mix/demo-using-hsliders~.pd"; sourceTree = "<group>"; };
+		634AF5471C18BB7700FD9A9E /* touch-x2~.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "touch-x2~.pd"; path = "PD/patches/press_to_mix/touch-x2~.pd"; sourceTree = "<group>"; };
+		635153A51C19C911009554CC /* gts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gts.cpp; path = PD/faust/gts.cpp; sourceTree = "<group>"; };
+		6360E7511C1F1E2400D07F09 /* NNStringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NNStringView.h; path = NNKit/NNStringView.h; sourceTree = "<group>"; };
+		6360E7521C1F1E2400D07F09 /* NNStringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NNStringView.m; path = NNKit/NNStringView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		634AF2DD1C18774000FD9A9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634AF51B1C18869300FD9A9E /* libpd-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		634AF2D71C18774000FD9A9E = {
+			isa = PBXGroup;
+			children = (
+				634AF5101C18868100FD9A9E /* libpd.xcodeproj */,
+				634AF2E21C18774000FD9A9E /* Mobile Haptic Examples */,
+				634AF2E11C18774000FD9A9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		634AF2E11C18774000FD9A9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634AF2E01C18774000FD9A9E /* Mobile Haptic Examples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		634AF2E21C18774000FD9A9E /* Mobile Haptic Examples */ = {
+			isa = PBXGroup;
+			children = (
+				63318ED71C18C9490028A9D2 /* DFContinuousForceTouchGestureRecognizer.h */,
+				63318ED81C18C9490028A9D2 /* DFContinuousForceTouchGestureRecognizer.m */,
+				635153A81C19CC77009554CC /* ForceTouchRecognizer */,
+				634AF3151C187D7400FD9A9E /* PD */,
+				634AF3041C18788600FD9A9E /* NNKit */,
+				634AF3131C187B7B00FD9A9E /* ViewControllers */,
+				634AF2E61C18774000FD9A9E /* AppDelegate.h */,
+				634AF2E71C18774000FD9A9E /* AppDelegate.m */,
+				634AF2EC1C18774000FD9A9E /* Main.storyboard */,
+				634AF2EF1C18774000FD9A9E /* Assets.xcassets */,
+				634AF2F11C18774000FD9A9E /* LaunchScreen.storyboard */,
+				634AF2F41C18774000FD9A9E /* Info.plist */,
+				634AF2E31C18774000FD9A9E /* Supporting Files */,
+			);
+			path = "Mobile Haptic Examples";
+			sourceTree = "<group>";
+		};
+		634AF2E31C18774000FD9A9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				634AF2E41C18774000FD9A9E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		634AF3041C18788600FD9A9E /* NNKit */ = {
+			isa = PBXGroup;
+			children = (
+				6360E7511C1F1E2400D07F09 /* NNStringView.h */,
+				6360E7521C1F1E2400D07F09 /* NNStringView.m */,
+				634AF3161C187DF100FD9A9E /* FaustLoader.h */,
+				634AF33C1C1882E500FD9A9E /* FaustLoader.mm */,
+				634AF30D1C187A3500FD9A9E /* nnKit.h */,
+				634AF30E1C187A3500FD9A9E /* nnKit.m */,
+				634AF3051C18789C00FD9A9E /* NNEasyPD.h */,
+				634AF3061C18789C00FD9A9E /* NNEasyPD.m */,
+			);
+			name = NNKit;
+			sourceTree = "<group>";
+		};
+		634AF3131C187B7B00FD9A9E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				634AF2E91C18774000FD9A9E /* ViewController.h */,
+				634AF2EA1C18774000FD9A9E /* ViewController.m */,
+				634AF5381C18B22D00FD9A9E /* PluckViewController.h */,
+				634AF5391C18B22D00FD9A9E /* PluckViewController.m */,
+				634AF5411C18BABB00FD9A9E /* PressToMixViewController.h */,
+				634AF5421C18BABB00FD9A9E /* PressToMixViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		634AF3151C187D7400FD9A9E /* PD */ = {
+			isa = PBXGroup;
+			children = (
+				634AF52D1C18B03D00FD9A9E /* Patches */,
+				634AF3341C187E9700FD9A9E /* Faust */,
+			);
+			name = PD;
+			sourceTree = "<group>";
+		};
+		634AF3341C187E9700FD9A9E /* Faust */ = {
+			isa = PBXGroup;
+			children = (
+				635153A51C19C911009554CC /* gts.cpp */,
+				634AF53F1C18B95600FD9A9E /* pluck_harp10.cpp */,
+				634AF53B1C18B45200FD9A9E /* pluck_one_string_pitch_control_auto_timbre.cpp */,
+				634AF3301C187E9300FD9A9E /* dsp.h */,
+				634AF3311C187E9300FD9A9E /* meta.h */,
+				634AF3321C187E9300FD9A9E /* misc.h */,
+				634AF3331C187E9300FD9A9E /* UI.h */,
+			);
+			name = Faust;
+			sourceTree = "<group>";
+		};
+		634AF5111C18868100FD9A9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634AF5161C18868100FD9A9E /* libpd-ios.a */,
+				634AF5181C18868100FD9A9E /* libpd-osx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		634AF52D1C18B03D00FD9A9E /* Patches */ = {
+			isa = PBXGroup;
+			children = (
+				634AF5441C18BB6900FD9A9E /* press_to_mix */,
+				634AF52E1C18B04600FD9A9E /* faust-control.pd */,
+				634AF52F1C18B04600FD9A9E /* pluck_harp10-FireFaderSimulator-noiemlib.pd */,
+				634AF5301C18B04600FD9A9E /* pluck_harp10.pd */,
+				634AF5311C18B04600FD9A9E /* pluck_one_string_pitch_control_auto_timbre-FireFaderSimulator.pd */,
+				634AF5321C18B04600FD9A9E /* pluck_one_string_pitch_control_auto_timbre.pd */,
+			);
+			name = Patches;
+			sourceTree = "<group>";
+		};
+		634AF5441C18BB6900FD9A9E /* press_to_mix */ = {
+			isa = PBXGroup;
+			children = (
+				63318ECF1C18C7E50028A9D2 /* zdubstep-drum-loop.wav */,
+				63318ED01C18C7E50028A9D2 /* zelectro-house-loop.wav */,
+				63318ED11C18C7E50028A9D2 /* zhappy-drum-loop.wav */,
+				63318ED21C18C7E50028A9D2 /* zsax-chinese.wav */,
+				634AF5451C18BB7700FD9A9E /* demo-using-hsliders~.pd */,
+				634AF5471C18BB7700FD9A9E /* touch-x2~.pd */,
+			);
+			name = press_to_mix;
+			sourceTree = "<group>";
+		};
+		635153A81C19CC77009554CC /* ForceTouchRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ForceTouchRecognizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		634AF2DF1C18774000FD9A9E /* Mobile Haptic Examples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634AF2F71C18774000FD9A9E /* Build configuration list for PBXNativeTarget "Mobile Haptic Examples" */;
+			buildPhases = (
+				634AF2DC1C18774000FD9A9E /* Sources */,
+				634AF2DD1C18774000FD9A9E /* Frameworks */,
+				634AF2DE1C18774000FD9A9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				634AF51A1C18868F00FD9A9E /* PBXTargetDependency */,
+			);
+			name = "Mobile Haptic Examples";
+			productName = "Mobile Haptic Examples";
+			productReference = 634AF2E01C18774000FD9A9E /* Mobile Haptic Examples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		634AF2D81C18774000FD9A9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Louisiana State University";
+				TargetAttributes = {
+					634AF2DF1C18774000FD9A9E = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = MZWL92LA7S;
+					};
+				};
+			};
+			buildConfigurationList = 634AF2DB1C18774000FD9A9E /* Build configuration list for PBXProject "Mobile Haptic Examples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 634AF2D71C18774000FD9A9E;
+			productRefGroup = 634AF2E11C18774000FD9A9E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 634AF5111C18868100FD9A9E /* Products */;
+					ProjectRef = 634AF5101C18868100FD9A9E /* libpd.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				634AF2DF1C18774000FD9A9E /* Mobile Haptic Examples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		634AF5161C18868100FD9A9E /* libpd-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-ios.a";
+			remoteRef = 634AF5151C18868100FD9A9E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		634AF5181C18868100FD9A9E /* libpd-osx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-osx.a";
+			remoteRef = 634AF5171C18868100FD9A9E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		634AF2DE1C18774000FD9A9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634AF2F31C18774000FD9A9E /* LaunchScreen.storyboard in Resources */,
+				634AF54C1C18BB7700FD9A9E /* demo-using-hsliders~.pd in Resources */,
+				634AF5351C18B04600FD9A9E /* pluck_harp10.pd in Resources */,
+				634AF2F01C18774000FD9A9E /* Assets.xcassets in Resources */,
+				63318ED31C18C7E50028A9D2 /* zdubstep-drum-loop.wav in Resources */,
+				634AF5361C18B04600FD9A9E /* pluck_one_string_pitch_control_auto_timbre-FireFaderSimulator.pd in Resources */,
+				634AF2EE1C18774000FD9A9E /* Main.storyboard in Resources */,
+				634AF5341C18B04600FD9A9E /* pluck_harp10-FireFaderSimulator-noiemlib.pd in Resources */,
+				634AF54E1C18BB7700FD9A9E /* touch-x2~.pd in Resources */,
+				634AF5371C18B04600FD9A9E /* pluck_one_string_pitch_control_auto_timbre.pd in Resources */,
+				63318ED41C18C7E50028A9D2 /* zelectro-house-loop.wav in Resources */,
+				634AF5331C18B04600FD9A9E /* faust-control.pd in Resources */,
+				63318ED61C18C7E50028A9D2 /* zsax-chinese.wav in Resources */,
+				63318ED51C18C7E50028A9D2 /* zhappy-drum-loop.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		634AF2DC1C18774000FD9A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634AF53A1C18B22D00FD9A9E /* PluckViewController.m in Sources */,
+				634AF33D1C1882E500FD9A9E /* FaustLoader.mm in Sources */,
+				6360E7531C1F1E2400D07F09 /* NNStringView.m in Sources */,
+				634AF5401C18B95600FD9A9E /* pluck_harp10.cpp in Sources */,
+				634AF30F1C187A3500FD9A9E /* nnKit.m in Sources */,
+				634AF2EB1C18774000FD9A9E /* ViewController.m in Sources */,
+				634AF2E81C18774000FD9A9E /* AppDelegate.m in Sources */,
+				634AF5431C18BABB00FD9A9E /* PressToMixViewController.m in Sources */,
+				635153A61C19C911009554CC /* gts.cpp in Sources */,
+				634AF53C1C18B45200FD9A9E /* pluck_one_string_pitch_control_auto_timbre.cpp in Sources */,
+				634AF2E51C18774000FD9A9E /* main.m in Sources */,
+				63318ED91C18C9490028A9D2 /* DFContinuousForceTouchGestureRecognizer.m in Sources */,
+				634AF3071C18789C00FD9A9E /* NNEasyPD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		634AF51A1C18868F00FD9A9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libpd-ios";
+			targetProxy = 634AF5191C18868F00FD9A9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		634AF2EC1C18774000FD9A9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634AF2ED1C18774000FD9A9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		634AF2F11C18774000FD9A9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634AF2F21C18774000FD9A9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		634AF2F51C18774000FD9A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		634AF2F61C18774000FD9A9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		634AF2F81C18774000FD9A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MZWL92LA7S;
+				INFOPLIST_FILE = "Mobile Haptic Examples/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LSU.Mobile-Haptic-Examples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "nneasypd/libpd/../**";
+			};
+			name = Debug;
+		};
+		634AF2F91C18774000FD9A9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MZWL92LA7S;
+				INFOPLIST_FILE = "Mobile Haptic Examples/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LSU.Mobile-Haptic-Examples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "nneasypd/libpd/../**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		634AF2DB1C18774000FD9A9E /* Build configuration list for PBXProject "Mobile Haptic Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634AF2F51C18774000FD9A9E /* Debug */,
+				634AF2F61C18774000FD9A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634AF2F71C18774000FD9A9E /* Build configuration list for PBXNativeTarget "Mobile Haptic Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634AF2F81C18774000FD9A9E /* Debug */,
+				634AF2F91C18774000FD9A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 634AF2D81C18774000FD9A9E /* Project object */;
+}

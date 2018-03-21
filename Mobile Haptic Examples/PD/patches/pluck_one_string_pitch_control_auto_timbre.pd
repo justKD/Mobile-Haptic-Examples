@@ -1,0 +1,302 @@
+#N canvas 0 22 1225 774 10;
+#X obj 70 390 inlet~;
+#X obj 130 390 inlet~;
+#X obj 10 390 inlet;
+#X obj 190 390 r \$0-read;
+#X obj 190 420 faust-control \$0;
+#X obj 190 450 s \$0-write;
+#X obj 10 450 r \$0-in;
+#X obj 10 480 pluck_one_string_pitch_control_auto_timbre~;
+#X obj 10 510 s \$0-out;
+#X obj 70 540 outlet~;
+#X obj 130 540 outlet~;
+#X obj 190 540 outlet~;
+#X obj 250 540 outlet~;
+#X obj 10 540 outlet;
+#X obj 10 30 hsl 128 15 0.5 7 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Bridge-attenuation
+\$0-pluck-one-string-pitch-control-auto-timbre/Bridge-attenuation Bridge-attenuation
+-2 -6 0 10 -262144 -1 -1 9769 1;
+#X obj 160 30 nbx 5 14 0.5 7 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Bridge-attenuation
+\$0-pluck-one-string-pitch-control-auto-timbre/Bridge-attenuation empty
+0 -6 0 10 -262144 -1 -1 5.5 256;
+#X obj 10 60 hsl 128 15 10 100 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Brightness
+\$0-pluck-one-string-pitch-control-auto-timbre/Brightness Brightness
+-2 -6 0 10 -262144 -1 -1 4939 1;
+#X obj 160 60 nbx 5 14 10 100 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Brightness
+\$0-pluck-one-string-pitch-control-auto-timbre/Brightness empty 0 -6
+0 10 -262144 -1 -1 45 256;
+#X obj 10 90 hsl 128 15 20 84 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Frequency
+\$0-pluck-one-string-pitch-control-auto-timbre/Frequency Frequency
+-2 -6 0 10 -262144 -1 -1 1587 1;
+#X obj 160 90 nbx 5 14 20 84 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Frequency
+\$0-pluck-one-string-pitch-control-auto-timbre/Frequency empty 0 -6
+0 10 -262144 -1 -1 28 256;
+#X obj 10 120 hsl 128 15 0.5 7 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Fret-attenuation
+\$0-pluck-one-string-pitch-control-auto-timbre/Fret-attenuation Fret-attenuation
+-2 -6 0 10 -262144 -1 -1 5783 1;
+#X obj 160 120 nbx 5 14 0.5 7 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Fret-attenuation
+\$0-pluck-one-string-pitch-control-auto-timbre/Fret-attenuation empty
+0 -6 0 10 -262144 -1 -1 3.46 256;
+#X obj 10 150 hsl 128 15 0 2.5 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-damping
+\$0-pluck-one-string-pitch-control-auto-timbre/Pluck-damping Pluck-damping
+-2 -6 0 10 -262144 -1 -1 0 1;
+#X obj 160 150 nbx 5 14 0 2.5 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-damping
+\$0-pluck-one-string-pitch-control-auto-timbre/Pluck-damping empty
+0 -6 0 10 -262144 -1 -1 0 256;
+#X obj 10 180 hsl 128 15 0.001 0.01 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-half-width
+\$0-pluck-one-string-pitch-control-auto-timbre/Pluck-half-width Pluck-half-width
+-2 -6 0 10 -262144 -1 -1 7056 1;
+#X obj 160 180 nbx 5 14 0.001 0.01 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-half-width
+\$0-pluck-one-string-pitch-control-auto-timbre/Pluck-half-width empty
+0 -6 0 10 -262144 -1 -1 0.006 256;
+#X obj 10 210 hsl 128 15 0.01 0.99 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-position-along-length
+\$0-pluck-one-string-pitch-control-auto-timbre/Pluck-position-along-length
+Pluck-position-along-length -2 -6 0 10 -262144 -1 -1 5054 1;
+#X obj 160 210 nbx 5 14 0.01 0.99 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-position-along-length
+\$0-pluck-one-string-pitch-control-auto-timbre/Pluck-position-along-length
+empty 0 -6 0 10 -262144 -1 -1 0.4 256;
+#X obj 10 240 hsl 128 15 50 1000 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-stiffness
+\$0-pluck-one-string-pitch-control-auto-timbre/Pluck-stiffness Pluck-stiffness
+-2 -6 0 10 -262144 -1 -1 0 1;
+#X obj 160 240 nbx 5 14 50 1000 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-stiffness
+\$0-pluck-one-string-pitch-control-auto-timbre/Pluck-stiffness empty
+0 -6 0 10 -262144 -1 -1 50 256;
+#X obj 10 270 hsl 128 15 0.25 7.5 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/String-wave-impedance
+\$0-pluck-one-string-pitch-control-auto-timbre/String-wave-impedance
+String-wave-impedance -2 -6 0 10 -262144 -1 -1 12700 1;
+#X obj 160 270 nbx 5 14 0.25 7.5 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/String-wave-impedance
+\$0-pluck-one-string-pitch-control-auto-timbre/String-wave-impedance
+empty 0 -6 0 10 -262144 -1 -1 7.5 256;
+#X obj 10 300 hsl 128 15 0.01 1 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Z-Volume
+\$0-pluck-one-string-pitch-control-auto-timbre/Z-Volume Z-Volume -2
+-6 0 10 -262144 -1 -1 2694 1;
+#X obj 160 300 nbx 5 14 0.01 1 0 0 \$0-pluck-one-string-pitch-control-auto-timbre/Z-Volume
+\$0-pluck-one-string-pitch-control-auto-timbre/Z-Volume empty 0 -6
+0 10 -262144 -1 -1 0.22 256;
+#X obj 197 3 bng 15 250 50 1 \$0-init \$0-ignore empty 0 -6 0 10 -262144
+-1 -1;
+#X obj 217 3 tgl 15 1 \$0-active \$0-active empty 0 -6 0 10 -262144
+-1 -1 1 1;
+#X obj 354 6 r \$0-init;
+#X obj 708 49 s \$0-in;
+#X obj 1632 11 s \$0-read;
+#X obj 1698 10 r \$0-write;
+#X msg 354 26 1;
+#X obj 354 46 s \$0-active;
+#X obj 707 7 r \$0-active;
+#X msg 708 26 active \$1;
+#X obj 1698 30 route active;
+#X obj 1698 50 s \$0-active;
+#X msg 354 66 5.5;
+#X obj 354 86 s \$0-pluck-one-string-pitch-control-auto-timbre/Bridge-attenuation
+;
+#X obj 808 90 r \$0-pluck-one-string-pitch-control-auto-timbre/Bridge-attenuation
+;
+#X msg 807 104 /pluck-one-string-pitch-control-auto-timbre/Bridge-attenuation
+\$1;
+#X obj 1698 70 route /pluck-one-string-pitch-control-auto-timbre/Bridge-attenuation
+;
+#X obj 1698 90 s \$0-pluck-one-string-pitch-control-auto-timbre/Bridge-attenuation
+;
+#X msg 354 106 45;
+#X obj 354 126 s \$0-pluck-one-string-pitch-control-auto-timbre/Brightness
+;
+#X obj 793 155 r \$0-pluck-one-string-pitch-control-auto-timbre/Brightness
+;
+#X msg 793 155 /pluck-one-string-pitch-control-auto-timbre/Brightness
+\$1;
+#X obj 1698 110 route /pluck-one-string-pitch-control-auto-timbre/Brightness
+;
+#X obj 1698 130 s \$0-pluck-one-string-pitch-control-auto-timbre/Brightness
+;
+#X msg 354 146 28;
+#X obj 354 166 s \$0-pluck-one-string-pitch-control-auto-timbre/Frequency
+;
+#X obj 787 194 r \$0-pluck-one-string-pitch-control-auto-timbre/Frequency
+;
+#X msg 787 194 /pluck-one-string-pitch-control-auto-timbre/Frequency
+\$1;
+#X obj 1698 150 route /pluck-one-string-pitch-control-auto-timbre/Frequency
+;
+#X obj 1698 170 s \$0-pluck-one-string-pitch-control-auto-timbre/Frequency
+;
+#X msg 354 186 3.46;
+#X obj 353 203 s \$0-pluck-one-string-pitch-control-auto-timbre/Fret-attenuation
+;
+#X obj 787 229 r \$0-pluck-one-string-pitch-control-auto-timbre/Fret-attenuation
+;
+#X msg 789 242 /pluck-one-string-pitch-control-auto-timbre/Fret-attenuation
+\$1;
+#X obj 1698 190 route /pluck-one-string-pitch-control-auto-timbre/Fret-attenuation
+;
+#X obj 1698 210 s \$0-pluck-one-string-pitch-control-auto-timbre/Fret-attenuation
+;
+#X obj 307 255 s \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-damping
+;
+#X obj 792 294 r \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-damping
+;
+#X msg 792 314 /pluck-one-string-pitch-control-auto-timbre/Pluck-damping
+\$1;
+#X obj 1698 230 route /pluck-one-string-pitch-control-auto-timbre/Pluck-damping
+;
+#X obj 1698 250 s \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-damping
+;
+#X msg 354 266 0.006;
+#X obj 354 286 s \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-half-width
+;
+#X obj 794 355 r \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-half-width
+;
+#X msg 794 366 /pluck-one-string-pitch-control-auto-timbre/Pluck-half-width
+\$1;
+#X obj 1698 270 route /pluck-one-string-pitch-control-auto-timbre/Pluck-half-width
+;
+#X obj 1698 290 s \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-half-width
+;
+#X msg 354 306 0.4;
+#X obj 355 325 s \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-position-along-length
+;
+#X obj 790 420 r \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-position-along-length
+;
+#X msg 790 427 /pluck-one-string-pitch-control-auto-timbre/Pluck-position-along-length
+\$1;
+#X obj 1698 310 route /pluck-one-string-pitch-control-auto-timbre/Pluck-position-along-length
+;
+#X obj 1698 330 s \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-position-along-length
+;
+#X obj 340 488 s \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-stiffness
+;
+#X obj 799 26 r \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-stiffness
+;
+#X msg 798 38 /pluck-one-string-pitch-control-auto-timbre/Pluck-stiffness
+\$1;
+#X obj 1698 350 route /pluck-one-string-pitch-control-auto-timbre/Pluck-stiffness
+;
+#X obj 1698 370 s \$0-pluck-one-string-pitch-control-auto-timbre/Pluck-stiffness
+;
+#X obj 352 549 s \$0-pluck-one-string-pitch-control-auto-timbre/String-wave-impedance
+;
+#X obj 791 484 r \$0-pluck-one-string-pitch-control-auto-timbre/String-wave-impedance
+;
+#X msg 791 492 /pluck-one-string-pitch-control-auto-timbre/String-wave-impedance
+\$1;
+#X obj 1698 390 route /pluck-one-string-pitch-control-auto-timbre/String-wave-impedance
+;
+#X obj 1698 410 s \$0-pluck-one-string-pitch-control-auto-timbre/String-wave-impedance
+;
+#X msg 397 565 0.22;
+#X obj 397 585 s \$0-pluck-one-string-pitch-control-auto-timbre/Z-Volume
+;
+#X obj 794 549 r \$0-pluck-one-string-pitch-control-auto-timbre/Z-Volume
+;
+#X msg 794 554 /pluck-one-string-pitch-control-auto-timbre/Z-Volume
+\$1;
+#X obj 1698 430 route /pluck-one-string-pitch-control-auto-timbre/Z-Volume
+;
+#X obj 1698 450 s \$0-pluck-one-string-pitch-control-auto-timbre/Z-Volume
+;
+#X text -9 609 Generated Wed Nov 4 15:57:44 2015 by faust2pd v2.5.
+See http://faust.grame.fr and http://pure-lang.googlecode.com.;
+#X obj 780 7 r stiffness;
+#X obj 773 71 r bridge;
+#X obj 774 137 r brightness;
+#X obj 773 175 r frequency;
+#X obj 773 212 r fret;
+#X obj 774 275 r damping;
+#X obj 775 336 r halfwidth;
+#X obj 777 400 r position;
+#X obj 775 464 r impedance;
+#X obj 775 530 r zvolume;
+#X msg 280 237 0.4;
+#X msg 308 236 0;
+#X msg 324 531 1.6;
+#X msg 352 532 7.5;
+#X msg 315 473 750;
+#X msg 339 472 0;
+#X connect 0 0 7 1;
+#X connect 1 0 7 2;
+#X connect 2 0 4 0;
+#X connect 2 0 13 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;
+#X connect 7 1 9 0;
+#X connect 7 2 10 0;
+#X connect 7 3 11 0;
+#X connect 7 4 12 0;
+#X connect 36 0 46 0;
+#X connect 36 0 52 0;
+#X connect 36 0 58 0;
+#X connect 36 0 64 0;
+#X connect 36 0 115 0;
+#X connect 36 0 75 0;
+#X connect 36 0 81 0;
+#X connect 36 0 119 0;
+#X connect 36 0 117 0;
+#X connect 36 0 97 0;
+#X connect 39 0 44 0;
+#X connect 40 0 41 0;
+#X connect 42 0 43 0;
+#X connect 43 0 37 0;
+#X connect 44 0 45 0;
+#X connect 44 1 50 0;
+#X connect 46 0 47 0;
+#X connect 48 0 49 0;
+#X connect 49 0 37 0;
+#X connect 50 0 51 0;
+#X connect 50 1 56 0;
+#X connect 52 0 53 0;
+#X connect 54 0 55 0;
+#X connect 55 0 37 0;
+#X connect 56 0 57 0;
+#X connect 56 1 62 0;
+#X connect 58 0 59 0;
+#X connect 60 0 61 0;
+#X connect 61 0 37 0;
+#X connect 62 0 63 0;
+#X connect 62 1 68 0;
+#X connect 64 0 65 0;
+#X connect 66 0 67 0;
+#X connect 67 0 37 0;
+#X connect 68 0 69 0;
+#X connect 68 1 73 0;
+#X connect 71 0 72 0;
+#X connect 72 0 37 0;
+#X connect 73 0 74 0;
+#X connect 73 1 79 0;
+#X connect 75 0 76 0;
+#X connect 77 0 78 0;
+#X connect 78 0 37 0;
+#X connect 79 0 80 0;
+#X connect 79 1 85 0;
+#X connect 81 0 82 0;
+#X connect 83 0 84 0;
+#X connect 84 0 37 0;
+#X connect 85 0 86 0;
+#X connect 85 1 90 0;
+#X connect 88 0 89 0;
+#X connect 89 0 37 0;
+#X connect 90 0 91 0;
+#X connect 90 1 95 0;
+#X connect 93 0 94 0;
+#X connect 94 0 37 0;
+#X connect 95 0 96 0;
+#X connect 95 1 101 0;
+#X connect 97 0 98 0;
+#X connect 99 0 100 0;
+#X connect 100 0 37 0;
+#X connect 101 0 102 0;
+#X connect 104 0 89 0;
+#X connect 105 0 49 0;
+#X connect 106 0 55 0;
+#X connect 107 0 61 0;
+#X connect 108 0 67 0;
+#X connect 109 0 72 0;
+#X connect 110 0 78 0;
+#X connect 111 0 84 0;
+#X connect 112 0 94 0;
+#X connect 113 0 100 0;
+#X connect 115 0 70 0;
+#X connect 117 0 92 0;
+#X connect 119 0 87 0;
+#X coords 0 -1 1 1 235 320 1 0 0;
