@@ -2,7 +2,6 @@
 //  main.m
 //  Mobile Haptic Examples
 //
-//  Created by Daniel Holmes on 12/9/15.
 //  Copyright © 2015 Louisiana State University. All rights reserved.
 //
 
